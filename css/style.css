@@ -40,10 +40,52 @@ main {
   width: 30%;
 }
 
-.title > button {
+/* Title Box -------------------------------------- */
+
+.title {
+  position: relative;
+}
+
+.title button {
   background-color: #1c5380;
-  padding: 5px;
+  padding: 8px;
   color: #fff;
-  font-size: 1.2em;
-  border-radius: 5px;
+
+  border-radius: 3px;
+  text-align: center;
+  /* vertical-align: text-top; */
+
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+}
+
+.title button img {
+  margin: 0;
+}
+
+.title button p {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  padding: 2px;
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Text Box --------------------------------------- */
+
+.text-box {
+  /* border: solid 1px red; */
+
+  padding: 20px 40px;
+  background-image: url("/img/frame.png");
+  background-repeat: no-repeat;
+
+  padding-bottom: 60px;
+}
+
+.text-box h2 {
+  margin: 0;
 }
